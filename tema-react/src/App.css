@@ -22,9 +22,9 @@ body {
   /* Container principal */
   .container {
     max-width: 950px;
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
-    padding: 1rem 1rem;
+    padding: 1rem;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 15px;
@@ -43,10 +43,11 @@ body {
     padding: 8px 10px;
     border-radius: 20px 0 0 20px;
     border: none;
-    max-width: 200px;
+    max-width: 100%;
     width: 60%;
     outline: none;
     font-size: 14px;
+    margin-bottom: 10px;
   }
   
   /* Botão */
@@ -60,6 +61,7 @@ body {
     font-weight: bold;
     font-size: 14px;
     transition: background-color 0.2s;
+    width: 100%;
   }
   
   button:hover {
@@ -73,18 +75,19 @@ body {
     }
   
     input {
-      width: 100%;
+      width: 90%; /* Mais flexível no celular */
       border-radius: 20px;
       margin-bottom: 10px;
     }
   
     button {
-      width: 100%;
+      width: 90%; /* Botão também ocupa 90% da tela em dispositivos menores */
       border-radius: 20px;
     }
   
     .container {
       padding: 1rem;
+      width: 90%; /* A largura da container se adapta melhor ao celular */
     }
   }
   
