@@ -10,6 +10,9 @@ Este é um projeto de aplicação web de **Previsão do Tempo** desenvolvido com
 - **OpenWeatherMap API**
 - **Unsplash API**
 
+- link para o projeto!
+- https://react-tempo-9wnf.vercel.app/
+
 ## 📸 Funcionalidades
 
 - Busca de clima atual por cidade.
@@ -17,6 +20,9 @@ Este é um projeto de aplicação web de **Previsão do Tempo** desenvolvido com
 - Imagem de fundo dinâmica da cidade pesquisada.
 - Layout responsivo para mobile e desktop.
 - Interface limpa e amigável.
+
+- ![evercapture_23-04-2025_at_13-04-50](https://github.com/user-attachments/assets/9c3e10d5-01d9-41e9-84f3-3dedaeb0fbe5)
+
 
 ## 📦 Como Executar o Projeto
 
