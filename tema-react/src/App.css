@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  
+  /* Overlay escuro no fundo */
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 100vh;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Container principal */
+  .container {
+    max-width: 950px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  }
+  
+  /* Título */
+  h1 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  
+  /* Campo de pesquisa */
+  input {
+    padding: 8px 10px;
+    border-radius: 20px 0 0 20px;
+    border: none;
+    max-width: 200px;
+    width: 60%;
+    outline: none;
+    font-size: 14px;
+  }
+  
+  /* Botão */
+  button {
+    background-color: rgb(147, 101, 190);
+    border: 0;
+    padding: 8px 16px;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: rgb(98, 55, 138);
+  }
+  
+  /* Responsivo */
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    input {
+      width: 100%;
+      border-radius: 20px;
+      margin-bottom: 10px;
+    }
+  
+    button {
+      width: 100%;
+      border-radius: 20px;
+    }
+  
+    .container {
+      padding: 1rem;
+    }
+  }
+  

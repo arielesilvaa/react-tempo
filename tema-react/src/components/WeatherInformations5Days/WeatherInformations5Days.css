@@ -1,0 +1,67 @@
+.weather-container {
+    margin-top: 2rem;
+  }
+  
+  .weather-container h3 {
+    color: #000000;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  /* Layout em grade responsiva */
+  .forecast-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  /* Estilo dos cards */
+  .forecast-item {
+    background: #767575;
+    box-shadow: 0 4px 8px rgba(150, 149, 149, 0.311);
+    padding: 1rem;
+    border-radius: 18px;
+    text-align: center;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: hidden; /* Garante que nada saia do card */
+    box-sizing: border-box;
+  }
+  
+  /* Estilo dos textos */
+  .forecast-day {
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    color: #ffffff;
+    margin-bottom: 0.3rem;
+    word-wrap: break-word;
+  }
+  
+  .forecast-description {
+    text-transform: capitalize;
+    color: #ffffff;
+    font-size: 0.95rem;
+    word-wrap: break-word;
+  }
+  
+  /* Imagens no card */
+  .forecast-item img {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+  }
+  
+  /* Responsivo para telas pequenas */
+  @media (max-width: 600px) {
+    .forecast-list {
+      grid-template-columns: 1fr;
+    }
+  
+    .forecast-item {
+      height: auto;
+    }
+  }
+  

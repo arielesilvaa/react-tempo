@@ -1,0 +1,82 @@
+.weather-container {
+    background-color: #acaaaa;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(150, 149, 149, 0.311);
+  }
+  
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  /* Container principal da info do clima */
+  .weather-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Quebra para tela pequena */
+    text-align: center;
+  }
+  
+  /* Ícone de clima */
+  .weather-info img {
+    width: 90px;
+    height: 90px;
+    margin-right: 10px;
+  }
+  
+  /* Temperatura */
+  .temperature {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1c1b1b;
+    margin: 10px 0;
+  }
+  
+  /* Descrição do clima */
+  .description {
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    color: #262525;
+    margin-bottom: 15px;
+  }
+  
+  /* Detalhes (ex: umidade, vento, etc.) */
+  .details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    gap: 10px;
+  }
+  
+  /* Responsividade extra para telas pequenas */
+  @media (max-width: 600px) {
+    .temperature {
+      font-size: 2rem;
+    }
+  
+    .description {
+      font-size: 1.4rem;
+    }
+  
+    .details {
+      font-size: 1.2rem;
+      flex-direction: column;
+      gap: 5px;
+    }
+  
+    .weather-info {
+      flex-direction: column;
+    }
+  
+    .weather-info img {
+      margin: 0 0 10px 0;
+    }
+  }
+  
