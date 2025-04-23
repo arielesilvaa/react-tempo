@@ -61,14 +61,14 @@ body {
     font-weight: bold;
     font-size: 14px;
     transition: background-color 0.2s;
-    width: 100%;
+    width: 60%; /* Ajustado para ficar menor em telas grandes */
   }
   
   button:hover {
     background-color: rgb(98, 55, 138);
   }
   
-  /* Responsivo */
+  /* Responsivo para dispositivos móveis */
   @media screen and (max-width: 768px) {
     h1 {
       font-size: 1.5rem;
@@ -81,13 +81,21 @@ body {
     }
   
     button {
-      width: 90%; /* Botão também ocupa 90% da tela em dispositivos menores */
+      width: 90%; /* Botão ocupa 90% da tela em dispositivos menores */
       border-radius: 20px;
     }
   
     .container {
       padding: 1rem;
       width: 90%; /* A largura da container se adapta melhor ao celular */
+    }
+  }
+  
+  /* Para desktop - ajuste o tamanho do botão */
+  @media screen and (min-width: 1024px) {
+    button {
+      width: 40%; /* Botão menor em telas grandes */
+      padding: 8px 20px; /* Aumentando o padding para dar uma sensação mais adequada */
     }
   }
   
