@@ -9,7 +9,9 @@ Este é um projeto de aplicação web de **Previsão do Tempo** desenvolvido com
 - **CSS Responsivo**
 - **OpenWeatherMap API**
 - **Unsplash API**
-- https://react-tempo-9wnf.vercel.app/ link para o projeto!
+
+- link para o projeto!
+- https://react-tempo-9wnf.vercel.app/
 
 ## 📸 Funcionalidades
 
